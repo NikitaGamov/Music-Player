@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Karla:ital,wght@0,200..800;1,200..800&family=Kenia&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    background-image: url(/img/desktop.png);
+    width: 100%;
+    height: 1080px;
+}
+.logo__block {
+    position: absolute;
+    
+}
+.logo {
+    display: block;
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-size: 80px;
+    font-weight: 400;
+    margin-left: 122px;
+    margin-top: 47px;
+    color: rgb(255, 255, 255);
+}
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 500px;
+}
+.menu {
+    display: flex;
+    margin-top: 74px;
+    gap: 100px;
+}
+.menu__item {
+    font-family: "Istok Web", sans-serif;
+    font-size: 18px;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    display: flex;
+    margin-top: -100px;
+    margin-bottom: 175px;
+}
+
+.music {
+    margin-left: 115px;
+    margin-top: 164px;
+    width: 412px;
+    height: 264px;
+}
+
+.music__title {
+    font-family: "Kenia", sans-serif;
+    font-size: 150px;
+}
+
+.iphone {
+    z-index: 1;
+    margin-left: 600px;
+    margin-top: 75px;
+}
+.cabel {
+    z-index: 2;
+    margin-left: 1175px;
+    margin-top: -330px;
+}
+.paragraph__header {
+    width: 290px;
+    height: 63px;
+    margin-left: 122px;
+    margin-top: -266px;
+}
+.paragraph__header p {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.main {
+    background-color: #D53005;
+    color: rgb(255, 255, 255);
+}
+.main__container {
+    display: flex;
+    margin-top: -90px;
+    width: 100%;
+    height: 1024px;
+}
+.main__block {
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+}
+.main__title {
+    font-size: 30px;
+    font-family: "Karla", sans-serif;
+    padding-left: 122px;
+    padding-top: 99px;
+}
+.btn {
+    display: block;
+    padding: 18px 74px;
+    font-size: 30px;
+    height: 47px;
+    font-family: "Karla", sans-serif;
+    box-shadow: 4px 4px 30px 0 rgba(0, 0, 0, 0.5);
+    background: radial-gradient(at top left, rgb(177, 62, 24), rgb(243, 80, 26));
+}
+.btn1 {
+    width: 196px;
+    margin-top: 385px;
+    border: 1px solid gray;
+}
+.btn2 {
+    width: 200px;
+    margin-top: 80px;
+    border: 1px solid gray;
+}
+.main_section {
+    width: 382px;
+    height: 83px;
+}
+.main__img {
+    justify-content: end;
+    margin-left: 293px;
+    margin-top: 179px;
+}
+
+.about__container {
+    width: 100%;
+    height: 1024px;
+    background: linear-gradient(to top, rgb(0, 0, 0) 93%, rgb(213, 48, 5));
+}
+.about__text {
+    width: 969px;
+    height: 72px;
+    margin: 0 auto;
+    margin-top: 476px;
+}
+
+.page__store {
+    width: 100%;
+    height: 1024px;
+}
+.main_btn {
+    font-family: "Montserrat", serif;
+    border-radius: 50px;
+}
+.btn__store {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    width: 140px;
+    height: 30px;
+    padding: 10px 30px;
+    margin-top: 135px;
+    margin-left: 110px;
+    border-radius: 50px;
+    
+}
+.windows {
+    background-color: rgba(2, 2, 2, 0.9);
+    color:rgb(227, 227, 227);
+    margin-bottom: 53px;
+}
+.macos {
+    background-color: rgb(227, 227, 227);
+    color: rgba(2, 2, 2, 0.9);
+    margin-bottom: 135px;
+}
+.store__bold {
+    width: 419px;
+    font-weight: 600;
+    font-family: "Montserrat", serif;
+    height: 28px;
+    font-size: 21px;
+    color: #fff;
+    margin-left: 25px;
+    margin-bottom: 19px;
+}
+.store__text {
+    text-align: center;
+    width: 431px;
+    height: 110px;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 19px;
+}
+.store__text span {
+    text-decoration: underline;
+    font-size: 18px;
+    width: 379px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.store__notebook {
+    width: 1168.32px;
+    height: 685px;
+    margin-left: 640px;
+    margin-top: -600px;
+}
+
+.page__footer {
+    width: 100%;
+    height: 600px;
+    padding-top: 30px;
+    background: linear-gradient(to top, rgb(0, 0, 0) 93%, rgb(213, 48, 5));
+}
+.footer__logo {
+    font-family: "Kenia", sans-serif;
+    width: 138px;
+    height: 100px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    margin-top: 344px;
+    margin-left: 110px;
+}
+.footer__bottom {
+    display: flex;
+    gap: 100px;
+}
+.footer__copyright {
+    margin-top: -32px;
+    margin-left: 60px;
+}
+.copyright {
+    width: 346px;
+    height: 18px;
+    margin-left: 106px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer__menu1 {
+    align-items: stretch;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 452px;
+    margin-top: -370px;
+    width: 196px;
+    height: 147px;
+}
+.footer__menu2 {
+    align-items: stretch;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 779px;
+    margin-top: -160px;
+    width: 196px;
+    height: 147px;
+}
+.footer__menu3 {
+    align-items: stretch;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 1122px;
+    margin-top: -160px;
+    height: 107px;
+}
+.footer__menu1 li {
+    color:rgb(149, 149, 149);
+    font-size: 16px;
+}
+.footer__menu2 li {
+    color:rgb(149, 149, 149);
+    font-size: 16px;
+}
+.footer__menu3 li {
+    color:rgb(149, 149, 149);
+    font-size: 16px;
+}
+ul.footer__navigation > p {
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+}
